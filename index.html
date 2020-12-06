@@ -120,10 +120,11 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "user" && password === "web_dev") {
-        alert("You have successfully logged in.");
+    if (username === "pawstar" && password === "silver_screen_computer") {
+        alert("You have successfully logged in, Pawstar.");
         location.reload();
     } else {
+        alert("Incorrect!")
         loginErrorMsg.style.opacity = 1;
     }
 })
